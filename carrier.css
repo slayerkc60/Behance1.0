@@ -1,0 +1,114 @@
+.container-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; 
+  /* background: url(jobs1.jpeg);  */
+  height: 70px;
+  background-color: white;
+}
+body {
+  padding-top: 80px; 
+}
+.container-1 img{
+    height: 50px;
+    width: 50px;
+    margin-left: -5px;
+}
+.container-1 ul{
+    margin-left: 50px;
+    margin-top: -5px;
+}
+.container-1 ul li a {
+    color: black;
+    margin-top: -40px;
+    font-weight: bold;
+}
+#search{
+    position: absolute;
+    left: 65%;
+    top: 20%;
+    height: 35px;
+}
+.btns{
+    position: relative;
+    left: 30%;
+    margin-top: -30px;
+}
+.btns button{
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    padding: 1px;
+
+}
+.btns img{
+    height: 30px;
+    margin-left: 5px;
+    width: 30px;
+}
+.container-2{
+
+}
+.container_2 ul li a {
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.container_2 ul li a:hover{
+    cursor: pointer;
+    color: blue;
+
+}
+.container3 .one{
+    /* background-color: green; */
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    left: 1%;
+}
+.container3 .one h1{
+    font-weight: 900;
+
+}
+.container3 .one h3{
+    color: red;
+    font-size: 20px;
+
+}
+.container3 .one ol li{
+    font-size: 30px;
+    font-weight: 650;
+}
+.container3 .two{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+}
+.container3 .two img{
+    height: 550px;
+    margin-right: 10%;
+    position: absolute;
+    left: -100%;
+    
+
+
+}
+.links{
+    position: absolute;
+    top: 150%;
+    
+}
+.links ul li a {
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+
+}
+.links ul li a:hover{
+    color: blue;
+}
